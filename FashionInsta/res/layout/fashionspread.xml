@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="15sp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="15sp"
+            android:textColor="#6D6968"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/username"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="5sp"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/photos"
+            android:layout_width="250sp"
+            android:layout_height="250sp"
+            android:layout_below="@+id/description"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="7sp" />
+
+        <ImageButton
+            android:id="@+id/fashyic"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_below="@+id/photos"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/click" />
+
+        <TextView
+            android:id="@+id/fashytext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/photos"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="12sp"
+            android:text="Fashy"
+            android:textColor="#5C5858"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/fashy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/photos"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="12sp"
+            android:textColor="#5C5858"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/tackyic"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_below="@+id/photos"
+            android:layout_marginLeft="125dp"
+            android:background="@drawable/click1" />
+
+        <TextView
+            android:id="@+id/tackytext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/photos"
+            android:layout_marginLeft="165sp"
+            android:layout_marginTop="12sp"
+            android:text="Tacky"
+            android:textStyle="italic"
+            android:textColor="#5C5858"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/tacky"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/photos"
+            android:layout_marginLeft="205sp"
+            android:layout_marginTop="12sp"
+            android:textColor="#5C5858"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</ScrollView>

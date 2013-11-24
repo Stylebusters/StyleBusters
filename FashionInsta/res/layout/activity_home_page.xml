@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    tools:context=".HomePage" >
+<include
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/menu_menu" />
+
+<CalendarView
+    android:id="@+id/CalendarView1"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:layout_alignParentLeft="true" />
+
+</RelativeLayout>

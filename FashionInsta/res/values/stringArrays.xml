@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="friendArray">
+        <item>List of Friends</item>
+        <item>Rhonda</item>
+        <item>Ong Li</item>
+        <item>Yesser</item>
+        <item>Alan</item>
+        <item>Brian</item>
+        <item>Catherine</item>
+        <item>Darren</item>
+        <item>Enrique</item>
+        <item>Florence</item>
+        <item>Greta</item>
+        <item>Howard</item>
+        <item>Indinna</item>
+        <item>Johnny</item>
+        <item>Karl</item>
+        <item>Leon</item>
+        <item>Moniqu</item>
+        <item>Naria</item>
+        <item>Otto</item>
+        <item>Placebo</item>
+    </string-array>
+    <string-array name="faqArray">
+        <item>FAQ</item>
+        <item>Home Page</item>
+        <item>1. Here you can view in a glance of what you have worn in the month.</item>
+        <item>2. To Add photos: click on the first icon from the bottom menu bar. </item>
+        <item>3. To view List of Friends: Click on the second icon.</item>
+        <item>4. To play around with Color Combi: Click on the third icon.</item>
+        <item>5. To view Fashion Spread: Click on the forth icon.</item>
+        <item></item>
+        <item>Add Picture</item>
+        <item>1. Date will be current date by default. To change, click on the "Pick Date" button to change the date. </item>
+        <item>2. Type the description of the photo.</item>
+        <item>3. Click on the "Choose Picture" button to select the picture to be uploaded.</item>
+        <item>4. Click on "Add" to add it to the calendar. </item>
+        <item></item>
+        <item>Friends List</item>
+        <item>1. Top List are people who are requesting to be your friend.</item>
+        <item>2. To accept click on the "green tick icon".</item>
+        <item>3. A confirmation message will be prompted before it will be process.</item>
+        <item>4. To decline click on the "red cross icon".</item>
+        <item>5. A confirmation message will be prompted before it will be process.</item>
+        <item></item>
+        <item>1. Bottom List are the list of your friends.</item>
+        <item>2. You can remove friends by clicking on the "red cross icon".</item>
+        <item>3. A confirmation message will be prompted before it will be process.</item>
+        <item></item>
+        <item>Add Friend</item>
+        <item>1. Key in the email of the person you are inviting.</item>
+        <item>2. Click on "Invite" to send request.</item>
+        <item></item>
+        <item>Color Combi</item>
+        <item>1. Here you can play around with colours for tops and bottoms.</item>
+        <item>2. Select a Top and Bottom from the side menu.</item>
+        <item>3. Click on the Top and a color picker will pop out for you to choose.</item>
+        <item>4. Click on the Bottom and a color picker will pop out for you to choose.</item>
+        <item>5. Save your project to the gallery by clicking on the first icon on the side menu.</item>
+        <item>6. View the gallery by clicking on the second icon on the side menu.</item>
+        <item></item>
+        <item>Fashion Spread</item>
+        <item>1. Here you can view the timeline of shares from your friends and also from you.</item>
+        <item>2. Click on "Timeline" tab to view shares by your friends.</item>
+        <item>3. Click on "My Shares" tab to view your shares.</item>
+        <item></item>
+        <item>Fashion Spread - Timeline</item>
+        <item>1. You can rate your friends photo by clicking on the "Heart" and "Upside down heart" icon.</item>
+        <item>2. "Heart" icon represents Fashy which means you like it.</item>
+        <item>3. "Upside down heart" icon represents Tacky which means you dislike it.</item>
+    </string-array>
+
+</resources>

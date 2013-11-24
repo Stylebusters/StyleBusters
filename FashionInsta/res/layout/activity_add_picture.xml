@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" 
+    android:isScrollContainer="false" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="top"
+        tools:context=".AddPicture" >
+
+        <TextView
+            android:id="@+id/dateText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="14dp"
+            android:text="@string/dateText"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Button
+            android:id="@+id/pickDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/dateText"
+            android:layout_alignBottom="@+id/dateText"
+            android:layout_toRightOf="@+id/pictureText"
+            android:text="@string/pickDateButton" />
+
+        <TextView
+            android:id="@+id/dop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/pickDate"
+            android:layout_alignBottom="@+id/pickDate"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:text="@string/noDate"
+            android:textSize="@dimen/dateSize" />
+
+        <Button
+            android:id="@+id/chooseButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/pictureText"
+            android:layout_alignBottom="@+id/pictureText"
+            android:layout_centerHorizontal="true"
+            android:onClick="choosePicture"
+            android:text="@string/choose" />
+ 
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/desc"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/pickDate"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/descText"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+<ImageView
+    android:id="@+id/ImageView01"
+    android:layout_width="wrap_content"
+    android:layout_height="200dp"
+    android:layout_alignLeft="@+id/pictureText"
+    android:layout_below="@+id/pictureText"
+    android:layout_marginTop="15dp"
+    android:layout_toLeftOf="@+id/addButton" />
+
+        <include
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    layout="@layout/menu_menu" />
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/editText1"
+            android:layout_below="@+id/chooseButton"
+            android:layout_marginTop="41dp"
+            android:onClick="addImage"
+            android:text="@string/add" />
+
+        <TextView
+            android:id="@+id/pictureText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText1"
+            android:layout_below="@+id/editText1"
+            android:layout_marginTop="56dp"
+            android:text="@string/pictureText"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+
+</ScrollView>

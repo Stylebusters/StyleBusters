@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal" >
+
+    <ImageButton
+        android:id="@+id/colorCombiButton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/friendsListButton"
+        android:background="@color/tabDark"
+        android:src="@drawable/ic_colorcombi"
+        android:text="@string/colorCombi" />
+
+    <ImageButton
+        android:id="@+id/fashionSpreadButton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/colorCombiButton"
+        android:background="@color/tabDark"
+        android:src="@drawable/fashionspreadm"
+        android:text="@string/fashionSpread" />
+    
+       
+    <ImageButton
+        android:id="@+id/friendsListButton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/addPictureButton"
+        android:background="@color/tabDark"
+        android:src="@drawable/friendicon"
+        android:text="@string/friendsList" />
+
+    <ImageButton
+        android:id="@+id/addPictureButton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/tabDark"
+        android:src="@drawable/ic_addpic"
+        android:text="@string/addPicture" />
+
+</RelativeLayout>

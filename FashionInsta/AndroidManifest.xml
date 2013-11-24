@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fashioninsta"
+    android:versionCode="1"
+    android:versionName="1.0" 
+    >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher2"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" 
+        android:background="@color/white">
+        <activity
+            android:name="com.example.fashioninsta.WelcomePage"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustResize|stateVisible" 
+            android:background="@color/white">
+           
+        </activity>
+        <activity
+            android:name="com.example.fashioninsta.AddFriendActivity"
+            android:label="@string/title_activity_add_friend" >
+        </activity>
+        <activity
+            android:name="com.example.fashioninsta.FriendsList"
+            android:label="@string/title_activity_friends_list" >
+        </activity>
+        <activity
+            android:name="com.example.fashioninsta.FriendsListActivity"
+            android:label="@string/title_activity_friends_list" >
+        </activity>
+        <activity
+            android:name="com.example.fashioninsta.ColourCombi"
+            android:label="@string/title_activity_colour_combi" 
+            android:background="@color/white">
+        </activity>
+        
+         <activity
+            android:name="com.example.fashioninsta.ColorPickerActivity"
+            android:label="@string/title_activity_colour_combi" 
+            >
+        </activity>
+        <activity
+            android:name="com.example.fashioninsta.FashSpr"
+            android:label="@string/title_activity_fash_spr" >
+        </activity>
+        <activity
+            android:name="com.example.fashioninsta.HomePage"
+            android:label="@string/app_name" >
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+             
+        </activity>
+        <activity
+            android:name="com.example.fashioninsta.TabsMainActivity"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.example.fashioninsta.Friends_List"
+            android:label="@string/title_activity_friends__list" >
+        </activity>
+        <activity
+            android:name="com.example.fashioninsta.AddPicture"
+            android:label="@string/title_activity_add_picture" 
+            android:windowSoftInputMode="stateVisible|adjustPan">
+        </activity>
+        <activity
+            android:name="com.example.fashioninsta.FAQ"
+            android:label="@string/title_activity_faq" >
+        </activity>
+        
+    
+        
+    </application>
+
+</manifest>

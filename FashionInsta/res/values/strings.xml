@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FashionInsta</string>
+    <string name="title_activity_add_friend">Add Friend</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_friends_list">Friends List</string>
+    <string name="title_activity_color_combi">Color Combi</string>
+    <string name="title_activity_colour_combi">Colour Combi</string>
+    <string name="title_activity_fashion_spread">Fashion Spread</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_fash_spr">Fashion Spread</string>
+    <string name="home">Home</string>
+    <string name="title_activity_time_line">TimeLine</string>
+    <string name="username1">Chanel Vuitton</string>
+    <string name="username2">Gucci Tan </string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="colorspectrum">Color Spectrum Image</string>
+    <string name="addFriend">Add Friend</string>
+    <string name="friendsList">Friends</string>
+    <string name="fashionSpread">Fashion Spread</string>
+    <string name="colorCombi">Color Combi</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="addPicture">Add Picture</string>
+    <string name="title_activity_friends__list">Friends List</string>
+    <string name="title_activity_add_picture">Add Picture</string>
+    <string name="dateText">"Date: "</string>
+    <string name="pictureText">"Picture: "</string>
+    <string name="pickDateButton">Pick Date</string>
+    <string name="noDate">No Date Set</string>
+    <string name="choose">Choose Picture</string>
+    <string name="descText">Description:</string>
+    <string name="add">ADD</string>
+    <string name="home">Home</string>
+    <string name="faq">FAQ</string>
+    <string name="title_activity_faq">FAQ</string>
+    <string name="faqText">This is the FAQ page.</string>
+
+</resources>

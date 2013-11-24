@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFAFD"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+    
+      <ImageButton
+        android:id="@+id/saveimage"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:background="@drawable/savebuttonf" />
+      
+      <ImageButton
+        android:id="@+id/gallery"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="10sp"
+        android:layout_below="@+id/saveimage"
+        android:background="@drawable/gallery" />
+
+     <ImageButton
+        android:id="@+id/tshirt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gallery"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/ic_shirts" />
+     
+    <ImageButton
+        android:id="@+id/strap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tshirt"
+        android:layout_marginTop="15sp"
+        android:background="@drawable/ic_strap" /> 
+    
+     <ImageButton
+        android:id="@+id/skirt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/strap"
+        android:layout_marginTop="10sp"
+        android:background="@drawable/ic_shortskirtf" />
+     
+    <ImageButton
+        android:id="@+id/shortpants"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/skirt"
+        android:background="@drawable/ic_shortpants" />
+  
+        
+    <ImageButton
+        android:id="@+id/longpants"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shortpants"
+        android:background="@drawable/ic_longpants" />
+    
+	    
+    <ImageView
+        android:id="@+id/topimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100sp"
+        android:layout_marginTop="10sp"
+        android:adjustViewBounds="true" />
+    
+    <ImageView
+        android:id="@+id/bottomimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topimage"
+        android:layout_marginLeft="131sp"
+        android:adjustViewBounds="true" /> 
+
+  
+
+</RelativeLayout>
